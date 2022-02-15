@@ -8,17 +8,6 @@ import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com
           
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-apiKey: "AIzaSyBn25XpI-lZ3exfH3qOxieMpUJOTdlykBc",
-authDomain: "poothiparnu-profile.firebaseapp.com",
-databaseURL: "https://poothiparnu-profile-default-rtdb.asia-southeast1.firebasedatabase.app",
-projectId: "poothiparnu-profile",
-storageBucket: "poothiparnu-profile.appspot.com",
-messagingSenderId: "1015081908014",
-appId: "1:1015081908014:web:3097e52cd56f60ba45acbf",
-measurementId: "G-LR4XWCS70K"
-};
-          
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
